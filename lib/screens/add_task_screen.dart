@@ -9,12 +9,12 @@ class AddTaskScreen extends StatelessWidget {
     String newTaskTitle;
 
     return Container(
-      color: Color(0xff757575),
+      color: Color(0xff343434),
       child: Container(
         decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(20.0),
+              topLeft: Radius.circular(22.0),
               topRight: Radius.circular(20.0),
             )),
         child: Column(
@@ -34,7 +34,7 @@ class AddTaskScreen extends StatelessWidget {
               },
             ),
             FlatButton(
-              child: Text('Add', style: TextStyle(color: Colors.white)),
+              child: Text('Adds', style: TextStyle(color: Colors.white)),
               color: Colors.lightBlueAccent,
               onPressed: () {
                 Provider.of<TaskData>(context).addTask(newTaskTitle);
