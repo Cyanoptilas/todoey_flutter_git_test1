@@ -14,12 +14,13 @@ class AddTaskScreen extends StatelessWidget {
         decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(22.0),
-              topRight: Radius.circular(20.0),
+              topLeft: Radius.circular(25.0),
+              topRight: Radius.circular(25.0),
             )),
         child: Column(
           children: [
             SizedBox(
+              child: Icon(Icons.add),
               height: 20,
             ),
             Text(
