@@ -20,6 +20,7 @@ class AddTaskScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
+              child: Icon(Icons.add),
               height: 20,
             ),
             Text(
